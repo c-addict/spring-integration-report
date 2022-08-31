@@ -12,6 +12,19 @@ repositories {
 dependencies {
 
     /**
+     * Spring Boot starters
+     */
+    implementation("org.springframework.boot:spring-boot-starter:2.7.3")
+    implementation("org.springframework.boot:spring-boot-starter-integration:2.7.3")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.7.3")
+
+    /**
+     * Common dependencies
+     */
+    implementation("org.projectlombok:lombok:1.18.24")
+
+
+    /**
      * Testing
      */
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
